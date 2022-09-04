@@ -120,12 +120,13 @@ nav {
     height: 960px;
     padding-right: 7px;
     padding-bottom: 50px;
-    padding-top: 7px;
+    padding-top: 10px;
 }
 .hori {
     display: flex;
     justify-content: center;
     width: 100%;
+    
 }
 .bottom2 {
     max-width: 100%;
