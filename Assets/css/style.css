@@ -114,7 +114,7 @@ nav {
     border-style: solid;
     border-radius: 50px 50px 10px 10px;
     background-color: antiquewhite;
-    max-width: 100%;
+    max-width: 600px;
     height: 950px;
     padding-right: 7px;
     padding-bottom: 50px;
@@ -149,4 +149,7 @@ nav {
         align-items: center;
     
     }
+}
+.id {
+    max-width: 600px;
 }
