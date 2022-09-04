@@ -101,7 +101,6 @@ nav {
     display: flex;
     justify-content: center; 
     margin-bottom: -10px;
-    
 }
 
 .contact {
@@ -121,6 +120,7 @@ nav {
     height: 950px;
     padding-right: 7px;
     padding-bottom: 50px;
+    padding-top: 7px;
 }
 .hori {
     display: flex;
