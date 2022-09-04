@@ -68,7 +68,7 @@ aside {
 }
 
 p {
-    max-width: 70%;
+    max-width: 85%;
     color: rgb(0, 0, 0);
     border-radius: 10%;
     padding: 15px;
@@ -120,7 +120,7 @@ nav {
     border-style: solid;
     border-radius: 50px 50px 10px 10px;
     background-color: antiquewhite;
-    max-width: 70%;
+    max-width: 85%;
     height: 1000px;
     padding-right: 7px;
     padding-bottom: 50px;
