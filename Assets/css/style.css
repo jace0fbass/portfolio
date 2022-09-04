@@ -51,7 +51,8 @@ h4 {
     text-align: center;
     text-decoration: underline;
     margin: 0px;
-    background-color: antiquewhite;
+    
+    background-size: 10px;
 }
 
 li {
@@ -95,7 +96,6 @@ a:hover {
 }
 
 nav {
-    
 }
 .projects {
     display: flex;
@@ -120,16 +120,30 @@ nav {
     height: 1000px;
     padding-right: 7px;
     padding-bottom: 50px;
-    padding-top: 10px;
+    padding-top: 10px;    
 }
 .hori {
     display: flex;
     justify-content: center;
     width: 100%;
 }
+
 .bottom2 {
     max-width: 100%;
     max-height: fit-content;
+}
+
+.id {
+    max-width: 600px;
+}
+
+.top-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.profpic {
+    max-width: 80%;
 }
 
 @media screen and (max-width: 990px) {
@@ -140,9 +154,6 @@ nav {
     }
 
 @media screen and (max-width: 660px) {
-    .bottom2 {
-
-    }
     
 }
 
@@ -150,18 +161,5 @@ nav {
     .bottom2 {
         display: flex;
         align-items: center;
-    
     }
     
-.id {
-    max-width: 600px;
-}
-.top-links {
-    display: flex;
-    flex-direction: column;
-  
-}
-
-.profpic {
-    max-width: 80%;
-}
