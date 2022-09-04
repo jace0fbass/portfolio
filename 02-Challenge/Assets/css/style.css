@@ -1,0 +1,107 @@
+*{
+    margin: 0px 5px 5px 5px;
+    background-color: transparent;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    align-items: center;
+}
+
+body {
+text-align: center;
+}
+
+header {
+display: flex;
+justify-content: center;
+}
+
+img {
+  border-radius: 10%; 
+  border-style: double;
+  border-width: 5px;
+  display: grid;
+ 
+}
+
+.hori {
+    margin: 0px;
+}
+
+h1 {
+text-align: center;
+margin-top: 10px;
+border-style: solid;
+border-radius: 10px;
+background-color: antiquewhite;
+padding: 10px;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 0px;
+}
+
+h4 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 0px;
+    background-color: antiquewhite;
+}
+
+li {
+    background-color: antiquewhite;
+
+}
+aside {
+    justify-content: center;
+    text-decoration: solid;
+}
+
+p {
+    max-width: 550px;
+    color: rgb(0, 0, 0);
+    border-radius: 5%;
+    padding: 15px;
+    border-style: solid;
+    border-color: black;
+    background-color: antiquewhite;
+    
+}
+
+ul {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+footer {
+    text-align: center;
+}
+
+button {
+    border-radius: 10%;
+    border-style: hidden;
+    margin: 1%;
+    color: rgb(0, 0, 0);
+}
+
+.projects {
+    display: flex;
+   justify-content: center; 
+}
+
+.contact {
+    background-color: antiquewhite;
+    border-radius: 10%;
+    display:inline-block;
+    border-style: solid;
+    height: 190px;
+    width: 200px;
+}
+
+ .previous {
+    border-style: solid;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    max-width: 550px;
+ }
