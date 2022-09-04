@@ -21,10 +21,6 @@ img {
     display: grid;
 }
 
-.hori {
-    margin: 0px;
-}
-
 h1 {
     text-align: center;
     margin-top: 10px;
@@ -84,7 +80,7 @@ button {
 
 .projects {
     display: flex;
-   justify-content: center; 
+    justify-content: center; 
 }
 
 .contact {
@@ -96,9 +92,13 @@ button {
     width: 200px;
 }
 
- .previous {
+.previous {
     border-style: solid;
     border-radius: 10px;
     background-color: antiquewhite;
     max-width: 550px;
- }
+}
+
+.hori {
+    margin: 0px;
+}
