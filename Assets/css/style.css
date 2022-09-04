@@ -1,19 +1,21 @@
 * {
     margin: 0px 5px 5px 5px;
-    background-color: transparent;
     font-family:Arial, Helvetica, sans-serif;  
     align-items: center;
 }
 
 body {
     text-align: center;
+    background-color: rgb(255, 255, 255);
 }
 
 header {
     display: flex;
     justify-content: center;
 }
+.container {
 
+}
 img {
     border-radius: 10%; 
     border-style: double;
@@ -80,9 +82,9 @@ footer {
 
 button {
     border-radius: 10%;
-    border-style: hidden;
+    border-style: none;
     margin: 1%;
-    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
 }
 
 a:hover {
@@ -109,7 +111,23 @@ nav {
 
 .previous {
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 50px 50px 10px 10px;
     background-color: antiquewhite;
-    max-width: 550px;
+    max-width: 600px;
+    height: 950px;
+    padding-right: 7px;
+}
+.hori {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 990px) {
+    .bottom2 {
+    }
+    
+}
+@media screen and (max-width: 660px) {
+    .bottom2 {
+    }
+    
 }
