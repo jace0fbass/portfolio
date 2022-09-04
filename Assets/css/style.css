@@ -19,15 +19,13 @@ img {
     border-style: double;
     border-width: 5px;
     display: grid;
-    
 }
-
+/*I got the idea for spinning 360deg from https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover */
 .img1 {
-    transition: transform .7s ease-in-out;
+    transition: transform .1s ease-in-out;
   }
 .img1:hover {
     transform: rotate(360deg);
-    transform: skew(10%);
   }
 
 h1 {
@@ -88,7 +86,11 @@ button {
 }
 
 a:hover {
-  box-shadow: 10px;  
+    box-shadow: 10px;  
+}
+
+nav {
+    
 }
 .projects {
     display: flex;
