@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="Assets/css/reset.css" />
     <link rel="stylesheet" href="./Assets/css/style.css" />
 </head>
-
+<br>
+<a class="nav" href="#about-me">About me</a>
+<a class="nav" href="#previous-work">Previous work</a>
+<a class="nav" href="#contact-me">Contact me</a>
+<br>
     <header>
         <br>
         <br>
@@ -15,11 +19,13 @@
     </header>
     <center>
         <img src="Assets\images\Screenshot_20220902_231928.jpg" alt="A photo of Jason Jones.">
-    </center>    
+    </center> 
+    <nav>  
     
 <body>
     <br>
-    <h3>About Me</h3>
+    <br>
+    <h3 id="about-me">About me</h3>
     <center>
         <aside>
             <p><strong>Hello my name is Jason Jones. I am new to coding but have been interested in the subject ever since I saw The Matrix as a kid. My life took a different path through music in my late teens through 20's and more recently I have worked as a warehouse manager at a pneumatics and hydraulics distribution company. I am greatly looking forward to this new career path.
@@ -27,38 +33,47 @@
         </aside>
         </center>
             <br>
-            <h3>Previous work</h3>   
+            <h3 id="previous-work">Previous work</h3>   
             
         <center>
             <!--Horiseon refactor challenge.--> 
-    <section class="previous">
-        <section class="hori">
+            <section class="previous">
+                <section class="hori">
+                    <section class="img1">
             <button><strong>Horiseon Refactor Challenge</strong>
-            <a href="https://jace0fbass.github.io/02-Challenge/"> <img src="Assets\images\horiseonScreenshot.jpg" target="_blank" height="500px" width="525px">
+                <a class="button" href="https://jace0fbass.github.io/02-Challenge/" title=""> <img src="Assets\images\horiseonScreenshot.jpg" target="_blank" height="500px" width="525px">
             </a>
             </button>
+            </section>
         </section>  
-        <section class="projects">    
-            <!--BGA experiment messing around with bootcamp activity code.-->
+        <!--BGA experiment messing around with bootcamp activity code.-->
+        <section class="projects">  
+        <section class="img1">
             <button><strong>Activity Code Remix</strong>
             <a href="https://jace0fbass.github.io/landing-page/"> <img src="Assets\images\bgaScreenshot.jpg" target="_blank" height="300px" width="245px">
                 </a>
                 </button>
+        </section>
+        
+
             <!--Prework study guide.-->
+        <section class="img1">
             <button><strong>Prework Study Guide</strong>
             <a href="https://jace0fbass.github.io/prework-study-guide/"> <img src="Assets\images\preworkScreenshot.jpg" target="_blank" height="300px" width="245px">
             </a> 
             </button>
+            </section>
+            </section>
             <br>
             <br>
-        </section>
+     </section>
     </section>
         </center>
         <br>
         <center>
         <section class="contact">
             <br>
-        <h4>Contact me</h4>
+        <h4 id="contact-me">Contact me</h4>
         <br>
         <ul>
             <!--I got the idea for the email link from https://www.wikihow.com/Create-an-Email-Link-in-HTML-->
@@ -68,6 +83,7 @@
             <li><a href="https://github.com/jace0fbass" target="_blank">Github</a></li>
         </ul>
     </section>
+</nav>
     </center>
         <br>
         <footer>Thank you for viewing my portfolio!</footer>
