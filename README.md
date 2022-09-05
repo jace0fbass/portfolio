@@ -1,5 +1,9 @@
 # 02 Advanced CSS: Portfolio
 
+Deployed website: https://jace0fbass.github.io/portfolio/
+
+
+
 ---- NEEDS A SCREENSHOT!!!!!! ----
 
 
