@@ -14,6 +14,7 @@ header {
    display: flex;
    flex-direction: column;
    
+   
 }
 .container {
 
@@ -70,7 +71,7 @@ aside {
 p {
     max-width: 85%;
     color: rgb(0, 0, 0);
-    border-radius: 10%;
+    border-radius: 5% 5% 2.5% 2.5%;
     padding: 15px;
     border-style: solid;
     border-color: black;
