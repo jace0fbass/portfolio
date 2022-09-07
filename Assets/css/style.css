@@ -1,8 +1,10 @@
+:root {
+    --mainColor: antiquewhite;
+}
+
 * {
     margin: 0px 5px 5px 5px; 
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    align-items: center;
-    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
 body {
@@ -15,12 +17,10 @@ header {
     display: flex;
     flex-direction: column;
     object-fit:fill;
-    align-items: center;
+    align-items: center;  
     
 }
-.container {
-    
-}
+
 img {
     border-radius: 10%; 
     border-style: double;
@@ -28,10 +28,12 @@ img {
     display: grid;
     box-shadow: 10px;  
 }
+
 /*I got the idea for spinning 360deg from https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover */
 .img1 {
     transition: transform .1s;
 }
+
 .img1:hover {
     transform: rotate(360deg);
   }
@@ -39,31 +41,37 @@ img {
 h1 {
     text-align: center;
     margin-top: 10px;
-    border-style: solid;
+    border-style: double;
     border-radius: 10px;
-    background-color: antiquewhite;
+    background-color: var(--mainColor);
     padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+
+span {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 150%;
+
 }
 
 h3 {
     text-align: center;
     text-decoration: underline;
     margin: 0px;
-    text-decoration-color: antiquewhite;
-    color: antiquewhite;
+    text-decoration-color: var(--mainColor);
+    color: var(--mainColor);
 }
 
 h4 {
-    text-align: center;
-    text-decoration: underline;
+    text-align: center;   
     margin: 0px;
     background-color: none; 
     background-size: 10px;
-    color: antiquewhite;
+    color: var(--mainColor);
 }
 
 li {
-    background-color: antiquewhite;
+    background-color: var(--mainColor);
 }
 
 aside {
@@ -76,31 +84,33 @@ p {
     color: rgb(0, 0, 0);
     border-radius: 5% 5% 2.5% 2.5%;
     padding: 15px;
-    border-style: solid;
+    border-style: double;
     border-color: black;
-    background-color: antiquewhite;    
+    background-color: var(--mainColor);   
 }
 
 ul {
     text-align: center;
-    background-color: antiquewhite;
+    background-color: var(--mainColor);
 }
 
 footer {
     text-align: center;
-    color: antiquewhite;
+    color: var(--mainColor);
 }
 
 button {
     border-radius: 10%;
     border-style: none;
     margin: 1%;
-    background-color: antiquewhite;
+    background-color: var(--mainColor);
     max-width: 95%;
 }
 
 nav {
+    
 }
+
 .projects {
     display: flex;
     justify-content: center; 
@@ -108,24 +118,27 @@ nav {
 }
 
 .contact {
-    background-color: antiquewhite;
+    background-color: var(--mainColor);
     border-radius: 10%;
     display:inline-block;
-    border-style: solid;
+    border-style: double;
+    border-width: 3px;   
     height: 130px;
     width: 40%;
 }
 
 .previous {
-    border-style: solid;
+    border-style: double;
     border-radius: 50px 50px 10px 10px;
-    background-color: antiquewhite;
+    border-width: 3px;
+    background-color: var(--mainColor);
     max-width: 85%;
     height: 1000px;
     padding-right: 7px;
     padding-bottom: 50px;
     padding-top: 10px;    
 }
+
 .hori {
     display: flex;
     justify-content: center;
@@ -135,10 +148,6 @@ nav {
 .bottom2 {
     max-width: 100%;
     max-height: fit-content;
-}
-
-.id {
-    max-width: 600px;
 }
 
 .top-links {
