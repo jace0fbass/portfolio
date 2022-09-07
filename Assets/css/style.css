@@ -2,6 +2,7 @@
     margin: 0px 5px 5px 5px; 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-items: center;
+    
 }
 
 body {
@@ -10,25 +11,27 @@ body {
 }
 
 header {
-   max-width: 60%;
-   display: flex;
-   flex-direction: column;
-   
-   
+    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+    object-fit:fill;
+    align-items: center;
+    
 }
 .container {
-
+    
 }
 img {
     border-radius: 10%; 
     border-style: double;
     border-width: 5px;
     display: grid;
+    box-shadow: 10px;  
 }
 /*I got the idea for spinning 360deg from https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover */
 .img1 {
-    transition: transform .1s ease-in-out;
-  }
+    transition: transform .1s;
+}
 .img1:hover {
     transform: rotate(360deg);
   }
@@ -96,10 +99,6 @@ button {
     max-width: 95%;
 }
 
-a:hover {
-    box-shadow: 10px;  
-}
-
 nav {
 }
 .projects {
@@ -149,6 +148,7 @@ nav {
 
 .profpic {
     max-width: 80%;
+    
 }
 
 @media screen and (max-width: 990px) {
