@@ -8,10 +8,10 @@ In this challenge I have built a portfolio from the ground up writing both the H
 
 
 ## Screenshot(s)
-![A screenshot of the webpage when viewed wider than 757px.](./Assets\images\HWscreenshot1.jpg)
-![A screenshot of the webpage when viewed at 757px and below.](./Assets\images\HWscreenshot4.jpg)
-![A screenshot of the webpage when viewed wider than 757px.](./Assets\images\HWscreenshot2.jpg)
-![A screenshot of the webpage when viewed at 757px and below.](./Assets\images\HWscreenshot3.jpg)
+![A screenshot of the webpage when viewed wider than 757px.](C:\Users\jajon\bootcamp\portfolio\Assets\images\HWscreenshot1.jpg)
+![A screenshot of the webpage when viewed at 757px and below.](C:\Users\jajon\bootcamp\portfolio\Assets\images\HWscreenshot4.jpg)
+![A screenshot of the webpage when viewed wider than 757px.](C:\Users\jajon\bootcamp\portfolio\Assets\images\HWscreenshot2.jpg)
+![A screenshot of the webpage when viewed at 757px and below.](C:\Users\jajon\bootcamp\portfolio\Assets\images\HWscreenshot3.jpg)
 
 
 ## User Story
