@@ -3,17 +3,15 @@
 Deployed website: https://jace0fbass.github.io/portfolio/
 
 
-
----- NEEDS A SCREENSHOT!!!!!! ----
-
-
-
 ## Description
 In this challenge I have built a portfolio from the ground up writing both the HTML and CSS from scratch. I added images as buttons that route you to the project that corresponds to the screenshot that was clicked on. The  the images also rotate when hovered over. I have added navigation links that take you to the corresponding section on the website. I have added a section of contanct links to the website. 
 
 
-## Screenshot
-
+## Screenshot(s)
+![portfolio demo](Assets\images\HWscreenshot1.jpg)
+![portfolio demo](Assets\images\HWscreenshot4.jpg)
+![portfolio demo](Assets\images\HWscreenshot2.jpg)
+![portfolio demo](Assets\images\HWscreenshot3.jpg)
 
 
 ## User Story
@@ -44,14 +42,6 @@ THEN I am taken to that deployed application -->
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
-
-
-## Mock-Up
-
-The following animation shows the web application's appearance and functionality:
-
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
-
 
 ## Grading Requirements
 
@@ -96,14 +86,6 @@ This Challenge is graded based on the following criteria:
 * Repository contains multiple descriptive commit messages.
 
 * Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
