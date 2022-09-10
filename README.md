@@ -8,10 +8,10 @@ In this challenge I have built a portfolio from the ground up writing both the H
 
 
 ## Screenshot(s)
-![A screenshot of the webpage when viewed wider than 757px.](HWscreenshot1.jpg)
-![A screenshot of the webpage when viewed at 757px and below.](HWscreenshot4.jpg)
-![A screenshot of the webpage when viewed wider than 757px.](HWscreenshot2.jpg)
-![A screenshot of the webpage when viewed at 757px and below.](HWscreenshot3.jpg)
+<img src="Assets\images\HWscreenshot1.jpg" alt="A screenshot of the webpage when viewed wider than 757px.">
+<img src="Assets\images\HWscreenshot4.jpg" alt="A screenshot of the webpage when viewed at 757px and below.">
+<img src="Assets\images\HWscreenshot2.jpg" alt="A screenshot of the webpage when viewed wider than 757px.">
+<img src="Assets\images\HWscreenshot3.jpg" alt="A screenshot of the webpage when viewed at 757px and below.">
 
 
 ## User Story
