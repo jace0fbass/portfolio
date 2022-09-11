@@ -160,6 +160,25 @@ button {
 }
 
 @media screen and (max-width: 757px) {
+    p {
+        max-width: 85%;   
+        }
+    
+    h1 {
+        display: var(--mainDisplayStyle);
+        flex-direction: column;
+        margin-top: 10px;
+        border-style: var(--mainBorderStyle);    
+        border-radius: 10px;
+        padding-right: 30px;
+        background-color: var(--mainColor);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+        }
+    
+    span {
+        padding: 10px 10px 5px 55px;
+    }
+
     .img1, .projects {
         display: var(--mainDisplayStyle);
         flex-direction: column;
@@ -174,28 +193,10 @@ button {
     max-height: 1290px;
     padding-bottom: 400px;
     padding-top: 10px;    
-}
-
-p {
-    max-width: 85%;   
     }
 
-h1 {
-    display: var(--mainDisplayStyle);
-    flex-direction: column;
-    margin-top: 10px;
-    border-style: var(--mainBorderStyle);    
-    border-radius: 10px;
-    padding-right: 30px;
-    background-color: var(--mainColor);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
-    }
-
-span {
-    padding: 10px 10px 5px 55px;
-}
-.contact {
+    .contact {
     width: 45%;
-}
+    }
 }
 
