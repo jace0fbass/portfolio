@@ -50,22 +50,17 @@ h1, span {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-h3 {
-    text-align: center;
+h3, h4 {
     text-decoration: underline;
-    margin: 0px;
     text-decoration-color: var(--mainColor);
-    color:rgb(39, 37, 37);
+    margin: 0px;
+    text-align: center;
+    color: rgb(39, 37, 37);
 }
 
 h4 {
-    text-align: center;   
-    margin: 0px;
     background-color: none; 
     background-size: 10px;
-    color: rgb(39, 37, 37);
-    text-decoration: underline;
-    text-decoration-color: var(--mainColor);
 }
 
 li {
