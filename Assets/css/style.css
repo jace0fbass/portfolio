@@ -1,5 +1,7 @@
 :root {
     --mainColor:  rgb(204, 201, 201);
+    --mainBorderStyle: double;
+    --mainBorderRadius: 10%;
 }
 
 * {
@@ -22,27 +24,18 @@ header {
 }
 
 img {
-    border-radius: 10%; 
-    border-style: double;    
+    border-radius: var(--mainBorderRadius); 
+    border-style: var(--mainBorderStyle);    
     display: grid;
     box-shadow: 10px;  
 }
-
-/*I got the idea for spinning 360deg from https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover I have changed the speed, degree of rotation, and the elelment from the example shown to apply to my project */
-.img1 {
-    transition: transform .5s;
-}
-
-.img1:hover {
-    transform: rotate(2deg);
-  }
 
 h1 {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
-    border-style: double;   
-    border-radius: 10px;
+    border-style: var(--mainBorderStyle);   
+    border-radius: var(--mainBorderRadius);
     background-color: var(--mainColor);
     padding: 10px 10px 10px 30px;
 }
@@ -89,7 +82,7 @@ p {
     color: rgb(0, 0, 0);
     border-radius: 5% 5% 2.5% 2.5%;
     padding: 15px;
-    border-style: double;
+    border-style: var(--mainBorderStyle);
     border-color: black;
     background-color: var(--mainColor);   
 }
@@ -105,13 +98,21 @@ footer {
 }
 
 button {
-    border-radius: 10%;
+    border-radius: var(--mainBorderRadius);
     border-style: none;
     margin: 1%;
     background-color: transparent;
     max-width: 95%;
 }
 
+/*I got the idea for spinning 360deg from https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover I have changed the speed, degree of rotation, and the elelment from the example shown to apply to my project */
+.img1 {
+    transition: transform .5s;
+}
+
+.img1:hover {
+    transform: rotate(2deg);
+  }
 
 .projects {
     display: flex;
@@ -121,16 +122,16 @@ button {
 
 .contact {
     background-color: var(--mainColor);
-    border-radius: 10%;
+    border-radius: var(--mainBorderRadius);
     display: block;
     justify-content: center;
-    border-style: double;       
+    border-style: var(--mainBorderStyle);       
     height: 130px;
     width: 15%;
 }
 
 .previous {
-    border-style: double;
+    border-style: var(--mainBorderStyle);
     border-radius: 50px 50px 10px 10px;    
     background-color: var(--mainColor);
     max-width: 65%;
@@ -167,7 +168,7 @@ button {
     }
     
     .previous {
-    border-style: double;
+    border-style: var(--mainBorderStyle);
     border-radius: 50px 50px 10px 10px;
     border-width: 3px;
     background-color: var(--mainColor);
@@ -178,15 +179,14 @@ button {
 }
 
 p {
-    max-width: 85%;
-    
+    max-width: 85%;   
     }
 
 h1 {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    border-style: double;    
+    border-style: var(--mainBorderStyle);    
     border-radius: 10px;
     padding-right: 30px;
     background-color: var(--mainColor);
