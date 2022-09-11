@@ -45,15 +45,16 @@ h1 {
     border-radius: 10px;
     background-color: var(--mainColor);
     padding: 10px 10px 10px 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
 }
 
 span {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 150%;
     display: flex;
     align-items: center;
     padding-right: 5px;    
+}
+h1, span {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h3 {
