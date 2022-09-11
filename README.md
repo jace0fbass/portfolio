@@ -4,7 +4,7 @@ Deployed website: https://jace0fbass.github.io/portfolio/
 
 
 ## Description
-In this challenge I have built a portfolio from the ground up writing both the HTML and CSS from scratch. I added images as buttons that route you to the project that corresponds to the screenshot that was clicked on. The  the images also rotate when hovered over. I have added navigation links that take you to the corresponding section on the website. I have added a section of contact links to the website. I have added screenshots of my portfolio to the README.md file. I have made the page responsive using media queries. I enjoyed working on this homework assignment alot I have fun creating!
+In this challenge I have built a portfolio from the ground up writing both the HTML and CSS from scratch. I added images as buttons that route you to the project that corresponds to the screenshot that was clicked on. The  the images also rotate when hovered over. I have added navigation links that take you to the corresponding section on the website. I have added a section of contact links to the website. I have added screenshots of my portfolio to the README.md file. I have made the page responsive using media queries. I have used multiple variables in the root of the style.css file to make future changes to the page easier. I enjoyed working on this homework assignment alot I have fun creating! 
 
 
 ## Screenshot(s)
