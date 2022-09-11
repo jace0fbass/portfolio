@@ -24,12 +24,12 @@ header {
 img {
     border-radius: 10%; 
     border-style: double;
-    border-width: 5px;
+    border-width: 4px;
     display: grid;
     box-shadow: 10px;  
 }
 
-/*I got the idea for spinning 360deg from https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover */
+/*I got the idea for spinning 360deg from https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover I have changed the speed, degree of rotation, and the elelment from the example shown to apply to my project */
 .img1 {
     transition: transform .5s;
 }
@@ -103,7 +103,7 @@ ul {
 
 footer {
     text-align: center;
-    color: var(--mainColor);
+    color: black;
 }
 
 button {
@@ -114,9 +114,6 @@ button {
     max-width: 95%;
 }
 
-nav {
-    
-}
 
 .projects {
     display: flex;
