@@ -5,6 +5,7 @@
     --mainBorderRadius: 10%;
     --mainTextAlignment: center;
     --mainDisplayStyle: flex;
+    --mainContentJustification: center;
 }
 
 * {
@@ -72,7 +73,7 @@ li {
 }
 
 aside {
-    justify-content: center;
+    justify-content: var(--mainContentJustification);
     text-decoration: solid;
 }
 
@@ -115,7 +116,7 @@ button {
 
 .projects {
     display: var(--mainDisplayStyle);
-    justify-content: center; 
+    justify-content: var(--mainContentJustification); 
     margin-bottom: -10px;
 }
 
@@ -123,7 +124,7 @@ button {
     background-color: var(--mainColor);
     border-radius: var(--mainBorderRadius);
     display: block;
-    justify-content: center;
+    justify-content: var(--mainContentJustification);
     border-style: var(--mainBorderStyle);       
     height: 130px;
     width: 15%;
@@ -141,7 +142,7 @@ button {
 
 .hori {
     display: var(--mainDisplayStyle);
-    justify-content: center;
+    justify-content: var(--mainContentJustification);
     width: 100%;
 }
 
@@ -153,7 +154,7 @@ button {
 .top-links {
     display: var(--mainDisplayStyle);
     flex-direction: column;
-    justify-content: center;
+    justify-content: var(--mainContentJustification);
 }
 
 .profpic {
