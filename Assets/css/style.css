@@ -1,5 +1,6 @@
 :root {
     --mainColor:  rgb(204, 201, 201);
+    --secondaryColor: black;
     --mainBorderStyle: double;
     --mainBorderRadius: 10%;
     --mainTextAlignment: center;
@@ -58,7 +59,7 @@ h3, h4 {
     text-decoration-color: var(--mainColor);
     margin: 0px;
     text-align: var(--mainTextAlignment);
-    color: rgb(39, 37, 37);
+    color: var(--secondaryColor);
 }
 
 h4 {
@@ -77,11 +78,11 @@ aside {
 
 p {
     max-width: 55%;
-    color: rgb(0, 0, 0);
+    color: var(--secondaryColor);
     border-radius: 5% 5% 2.5% 2.5%;
     padding: 15px;
     border-style: var(--mainBorderStyle);
-    border-color: black;
+    border-color: var(--secondaryColor);
     background-color: var(--mainColor);   
 }
 
@@ -92,7 +93,7 @@ ul {
 
 footer {
     text-align: var(--mainTextAlignment);
-    color: black;
+    color: var(--secondaryColor);
 }
 
 button {
