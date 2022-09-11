@@ -3,6 +3,7 @@
     --mainBorderStyle: double;
     --mainBorderRadius: 10%;
     --mainTextAlignment: center;
+    --mainDisplayStyle: flex;
 }
 
 * {
@@ -18,7 +19,7 @@ body {
 
 header {
     max-width: 75%;
-    display: flex;
+    display: var(--mainDisplayStyle);
     flex-direction: column;
     object-fit:fill;
     align-items: center;  
@@ -32,7 +33,7 @@ img {
 }
 
 h1 {
-    display: flex;
+    display: var(--mainDisplayStyle);
     flex-direction: row;
     margin-top: 10px;
     border-style: var(--mainBorderStyle);   
@@ -43,10 +44,11 @@ h1 {
 
 span {
     font-size: 150%;
-    display: flex;
+    display: var(--mainDisplayStyle);
     align-items: center;
     padding-right: 5px;    
 }
+
 h1, span {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -111,7 +113,7 @@ button {
   }
 
 .projects {
-    display: flex;
+    display: var(--mainDisplayStyle);
     justify-content: center; 
     margin-bottom: -10px;
 }
@@ -137,7 +139,7 @@ button {
 }
 
 .hori {
-    display: flex;
+    display: var(--mainDisplayStyle);
     justify-content: center;
     width: 100%;
 }
@@ -148,7 +150,7 @@ button {
 }
 
 .top-links {
-    display: flex;
+    display: var(--mainDisplayStyle);
     flex-direction: column;
     justify-content: center;
 }
@@ -159,7 +161,7 @@ button {
 
 @media screen and (max-width: 757px) {
     .img1, .projects {
-        display: flex;
+        display: var(--mainDisplayStyle);
         flex-direction: column;
     }
     
@@ -179,7 +181,7 @@ p {
     }
 
 h1 {
-    display: flex;
+    display: var(--mainDisplayStyle);
     flex-direction: column;
     margin-top: 10px;
     border-style: var(--mainBorderStyle);    
