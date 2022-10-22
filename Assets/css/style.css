@@ -54,7 +54,9 @@ span {
 h1, span {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+h2 {
+    font-size: 30px;
+}
 h3, h4 {
     text-decoration: underline;
     text-decoration-color: var(--mainColor);
