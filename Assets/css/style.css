@@ -114,6 +114,14 @@ button {
     transform: rotate(2deg);
   }
 
+.img2 {
+    transition: transform .5s;
+}
+
+.img2:hover {
+    transform: rotate(2deg);
+  }
+
 .projects {
     display: var(--mainDisplayStyle);
     justify-content: var(--mainContentJustification); 
@@ -149,7 +157,10 @@ button {
     display: flex;
     justify-content: center;
 }
-
+.img2 {
+    display: flex;
+   justify-content: center;
+}
 
 .top-links {
     display: var(--mainDisplayStyle);
