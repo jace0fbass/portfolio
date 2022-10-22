@@ -1,6 +1,6 @@
 :root {
     --mainColor:  rgb(204, 201, 201);
-    --secondaryColor: black;
+    --secondaryColor: rgb(151, 151, 151);
     --mainBorderStyle: double;
     --mainBorderRadius: 10%;
     --mainTextAlignment: center;
@@ -16,7 +16,7 @@
 
 body {
     text-align: var(--mainTextAlignment);
-    background-color: rgb(184, 181, 174)
+    background-color: rgb(19, 19, 18)
 }
 
 header {
@@ -79,7 +79,7 @@ aside {
 
 p {
     max-width: 55%;
-    color: var(--secondaryColor);
+    color: black;
     border-radius: 5% 5% 2.5% 2.5%;
     padding: 15px;
     border-style: var(--mainBorderStyle);
@@ -134,22 +134,22 @@ button {
     border-style: var(--mainBorderStyle);
     border-radius: 50px 50px 10px 10px;    
     background-color: var(--mainColor);
-    max-width: 65%;
-    max-height: 1000px;
+    max-width: 85%;
+    max-height: 2000px;
     padding-bottom: 40px;
     padding-top: 10px;    
 }
 
-.hori {
+#hori, .bottom2 {
     display: var(--mainDisplayStyle);
     justify-content: var(--mainContentJustification);
-    width: 100%;
+    
+} 
+#mid2 {
+    display: flex;
+    justify-content: center;
 }
 
-.bottom2 {
-    max-width: 100%;
-    max-height: fit-content;
-}
 
 .top-links {
     display: var(--mainDisplayStyle);
@@ -157,7 +157,7 @@ button {
     justify-content: var(--mainContentJustification);
 }
 
-.profpic {
+#profpic {
     max-width: 80%; 
 }
 
@@ -184,6 +184,7 @@ button {
     .img1, .projects {
         display: var(--mainDisplayStyle);
         flex-direction: column;
+        
     }
     
     .previous {
@@ -192,7 +193,7 @@ button {
     border-width: 3px;
     background-color: var(--mainColor);
     max-width: 85%;
-    max-height: 1290px;
+    max-height: 2950px;
     padding-bottom: 400px;
     padding-top: 10px;    
     }
@@ -200,5 +201,11 @@ button {
     .contact {
     width: 45%;
     }
+    #mid2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+    
 }
 
